@@ -1,9 +1,9 @@
-curl -X PUT -T  ./bdd.jar -H "x-ms-date: 2019-07-07" -H "x-ms-blob-type: BlockBlob"   "https://bddreportblob.blob.core.windows.net/testreport/bdd.jar?sv=2019-10-10&ss=bfqt&srt=sco&sp=rwdlacupx&se=2021-06-19T18:13:49Z&st=2020-06-19T10:13:49Z&spr=https&sig=FRKp5JtSyn1BUgxCN0J4v%2FAXCD
+curl -X PUT -T  ./bdd.jar -H "x-ms-date: 2019-07-07" -H "x-ms-blob-type: BlockBlob"   "https://myaccount.blob.core.windows.net/testreport/bdd.jar?sv=2019-10-10&ss=bfqt&srt=sco&sp=rwdlacupx&se=2021-06-19T18:13:49Z&st=2020-06-19T10:13:49Z&spr=https&sig=FRKp5JtSyn1BUgxCN0J4v%2FAXCD
 
 
 
 ## bdd.jar is my file to upload on current directry
-## bddreportblob is account storage name
+## myaccount is account storage name
 ## testreport is my container name 
 ## bdd.jar on Url is the file name on blob 
 ## string in url after ? is sas token
